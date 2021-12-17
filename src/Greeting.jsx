@@ -26,7 +26,7 @@ if(time >=1 && time <12 ){
 function Greeting(){
     return(
         <>
-        <div className="greeting-box">  
+        <div className="greeting-box" >  
          <h1 className="greeting-h1">Hello {fname} <span className="span " style={bgcolor}>{greeting}</span></h1>
          
         </div>

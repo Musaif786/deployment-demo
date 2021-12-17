@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body{position: relative;
  background: linear-gradient(red,blue);
+ background-repeat: no-repeat;
+ height: 100vh;
 }
 .h1{
   font-family: 'Josefin Sans', sans-serif;
@@ -46,11 +48,28 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(https://picsum.photos/1200/600);
+  /* background: url(https://picsum.photos/375/812); */
   background-repeat: no-repeat;
-  
 
 }
+ @media screen and (max-height: 800px) {
+  body{
+    background: url(https://picsum.photos/375/812);
+  }
+
+} 
+@media screen and (max-height: 1024px) {
+  body{
+    background: url(https://picsum.photos/1024/1366);
+  }
+
+} 
+@media screen and (min-height: 1024px) {
+  body{
+    background: url(https://picsum.photos/1600/900);
+  }
+
+} 
 .greeting-h1{
   text-align: center;
   background-color: rgba(172, 165, 156, 0.315);
