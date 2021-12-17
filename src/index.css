@@ -1,13 +1,54 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.h1{
+  font-family: 'Josefin Sans', sans-serif;
+  
+  color: rgb(255, 255, 255);
+  background: green;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-shadow: 0px 1px 3px red;
+  color: rgb(7, 124, 226);
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(209, 204, 204, 0.801);
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+.box h1{
+  width: 80vw;
+  text-align: center;
+  background: rgba(21, 47, 21, 0.185);
+  color: rgb(5, 5, 5);
+  margin: 5px 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .greeting component */
+
+.span{
+  color: red;
+}
+.greeting-box{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://picsum.photos/1200/600);
+  background-repeat: no-repeat;
+
+}
+.greeting-h1{
+  text-align: center;
+  background-color: rgba(172, 165, 156, 0.315);
+  padding: 8px;
+
 }
