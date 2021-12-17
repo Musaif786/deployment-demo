@@ -42,9 +42,12 @@ body{
 }
 .greeting-box{
   min-height: 100vh;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(https://picsum.photos/1200/600);
+  background-repeat: no-repeat;
   
 
 }
