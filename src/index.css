@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+ background: linear-gradient(red,blue);
+}
 .h1{
   font-family: 'Josefin Sans', sans-serif;
   
@@ -42,8 +45,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(https://picsum.photos/1200/600);
-  background-repeat: no-repeat;
+  
 
 }
 .greeting-h1{
